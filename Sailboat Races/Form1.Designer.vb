@@ -39,12 +39,14 @@ Partial Class Form1
         Me.TextBox11 = New System.Windows.Forms.TextBox()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.Silver
+        Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox12)
         Me.GroupBox1.Controls.Add(Me.TextBox11)
         Me.GroupBox1.Controls.Add(Me.TextBox10)
@@ -196,6 +198,14 @@ Partial Class Form1
         Me.StatusStrip1.TabIndex = 5
         Me.StatusStrip1.Text = "StatusStrip1"
         '
+        'Label1
+        '
+        Me.Label1.Location = New System.Drawing.Point(495, 95)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(100, 23)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Label1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -231,4 +241,5 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents Label1 As Label
 End Class
