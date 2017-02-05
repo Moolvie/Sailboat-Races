@@ -170,6 +170,7 @@ Partial Class Form1
         Me.Results3.Size = New System.Drawing.Size(64, 28)
         Me.Results3.TabIndex = 18
         Me.Results3.Text = "Results3"
+        Me.Results3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Results2
         '
@@ -180,6 +181,7 @@ Partial Class Form1
         Me.Results2.Size = New System.Drawing.Size(64, 28)
         Me.Results2.TabIndex = 17
         Me.Results2.Text = "Results2"
+        Me.Results2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Results1
         '
@@ -190,6 +192,7 @@ Partial Class Form1
         Me.Results1.Size = New System.Drawing.Size(64, 28)
         Me.Results1.TabIndex = 6
         Me.Results1.Text = "Results1"
+        Me.Results1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'placeRace4Boat3
         '
