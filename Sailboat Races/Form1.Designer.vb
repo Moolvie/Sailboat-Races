@@ -361,7 +361,9 @@ Partial Class Form1
         Me.Controls.Add(Me.CalculateButton)
         Me.Controls.Add(Me.GroupBox1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Sailboat Races"
         Me.GroupBox1.ResumeLayout(False)
