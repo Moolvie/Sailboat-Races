@@ -50,7 +50,9 @@ Partial Class Form1
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.StatusStripErrorMessage = New System.Windows.Forms.ToolStripStatusLabel()
         Me.GroupBox1.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -85,7 +87,7 @@ Partial Class Form1
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(529, 282)
-        Me.GroupBox1.TabIndex = 1
+        Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Race Results"
         '
@@ -148,7 +150,7 @@ Partial Class Form1
         Me.Label5.Location = New System.Drawing.Point(20, 153)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(87, 28)
+        Me.Label5.Size = New System.Drawing.Size(74, 28)
         Me.Label5.TabIndex = 20
         Me.Label5.Text = "Boat #2:"
         '
@@ -157,7 +159,7 @@ Partial Class Form1
         Me.Label4.Location = New System.Drawing.Point(20, 106)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(87, 28)
+        Me.Label4.Size = New System.Drawing.Size(74, 28)
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "Boat #1: "
         '
@@ -201,7 +203,7 @@ Partial Class Form1
         Me.placeRace4Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace4Boat3.Name = "placeRace4Boat3"
         Me.placeRace4Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace4Boat3.TabIndex = 16
+        Me.placeRace4Boat3.TabIndex = 11
         '
         'placeRace4Boat2
         '
@@ -210,7 +212,7 @@ Partial Class Form1
         Me.placeRace4Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace4Boat2.Name = "placeRace4Boat2"
         Me.placeRace4Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace4Boat2.TabIndex = 15
+        Me.placeRace4Boat2.TabIndex = 10
         '
         'placeRace4Boat1
         '
@@ -219,7 +221,7 @@ Partial Class Form1
         Me.placeRace4Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace4Boat1.Name = "placeRace4Boat1"
         Me.placeRace4Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace4Boat1.TabIndex = 14
+        Me.placeRace4Boat1.TabIndex = 9
         '
         'placeRace3Boat3
         '
@@ -228,7 +230,7 @@ Partial Class Form1
         Me.placeRace3Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace3Boat3.Name = "placeRace3Boat3"
         Me.placeRace3Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace3Boat3.TabIndex = 13
+        Me.placeRace3Boat3.TabIndex = 8
         '
         'placeRace3Boat2
         '
@@ -237,7 +239,7 @@ Partial Class Form1
         Me.placeRace3Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace3Boat2.Name = "placeRace3Boat2"
         Me.placeRace3Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace3Boat2.TabIndex = 12
+        Me.placeRace3Boat2.TabIndex = 7
         '
         'placeRace3Boat1
         '
@@ -246,7 +248,7 @@ Partial Class Form1
         Me.placeRace3Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace3Boat1.Name = "placeRace3Boat1"
         Me.placeRace3Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace3Boat1.TabIndex = 11
+        Me.placeRace3Boat1.TabIndex = 6
         '
         'placeRace2Boat3
         '
@@ -255,7 +257,7 @@ Partial Class Form1
         Me.placeRace2Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace2Boat3.Name = "placeRace2Boat3"
         Me.placeRace2Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace2Boat3.TabIndex = 10
+        Me.placeRace2Boat3.TabIndex = 5
         '
         'placeRace2Boat2
         '
@@ -264,7 +266,7 @@ Partial Class Form1
         Me.placeRace2Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace2Boat2.Name = "placeRace2Boat2"
         Me.placeRace2Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace2Boat2.TabIndex = 9
+        Me.placeRace2Boat2.TabIndex = 4
         '
         'placeRace2Boat1
         '
@@ -273,7 +275,7 @@ Partial Class Form1
         Me.placeRace2Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace2Boat1.Name = "placeRace2Boat1"
         Me.placeRace2Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace2Boat1.TabIndex = 8
+        Me.placeRace2Boat1.TabIndex = 3
         '
         'placeRace1Boat3
         '
@@ -282,7 +284,7 @@ Partial Class Form1
         Me.placeRace1Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace1Boat3.Name = "placeRace1Boat3"
         Me.placeRace1Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace1Boat3.TabIndex = 7
+        Me.placeRace1Boat3.TabIndex = 2
         '
         'placeRace1Boat2
         '
@@ -291,7 +293,7 @@ Partial Class Form1
         Me.placeRace1Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace1Boat2.Name = "placeRace1Boat2"
         Me.placeRace1Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace1Boat2.TabIndex = 6
+        Me.placeRace1Boat2.TabIndex = 1
         '
         'placeRace1Boat1
         '
@@ -300,46 +302,53 @@ Partial Class Form1
         Me.placeRace1Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace1Boat1.Name = "placeRace1Boat1"
         Me.placeRace1Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace1Boat1.TabIndex = 5
+        Me.placeRace1Boat1.TabIndex = 0
         '
         'CalculateButton
         '
-        Me.CalculateButton.Location = New System.Drawing.Point(48, 358)
+        Me.CalculateButton.Location = New System.Drawing.Point(70, 358)
         Me.CalculateButton.Margin = New System.Windows.Forms.Padding(4)
         Me.CalculateButton.Name = "CalculateButton"
         Me.CalculateButton.Size = New System.Drawing.Size(146, 40)
-        Me.CalculateButton.TabIndex = 2
+        Me.CalculateButton.TabIndex = 1
         Me.CalculateButton.Text = "Calculate Totals"
         Me.CalculateButton.UseVisualStyleBackColor = True
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(227, 358)
+        Me.ClearButton.Location = New System.Drawing.Point(251, 358)
         Me.ClearButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(100, 40)
-        Me.ClearButton.TabIndex = 3
+        Me.ClearButton.TabIndex = 2
         Me.ClearButton.Text = "Clea&r"
         Me.ClearButton.UseVisualStyleBackColor = True
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(368, 358)
+        Me.ExitButton.Location = New System.Drawing.Point(392, 358)
         Me.ExitButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(100, 40)
-        Me.ExitButton.TabIndex = 4
+        Me.ExitButton.TabIndex = 3
         Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StatusStripErrorMessage})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 406)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
         Me.StatusStrip1.Size = New System.Drawing.Size(603, 22)
         Me.StatusStrip1.TabIndex = 5
         Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'StatusStripErrorMessage
+        '
+        Me.StatusStripErrorMessage.Name = "StatusStripErrorMessage"
+        Me.StatusStripErrorMessage.Size = New System.Drawing.Size(125, 17)
+        Me.StatusStripErrorMessage.Text = "ToolStripErrorMessage"
         '
         'Form1
         '
@@ -357,6 +366,8 @@ Partial Class Form1
         Me.Text = "Sailboat Races"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -389,4 +400,5 @@ Partial Class Form1
     Friend WithEvents Results3 As Label
     Friend WithEvents Results2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents StatusStripErrorMessage As ToolStripStatusLabel
 End Class
