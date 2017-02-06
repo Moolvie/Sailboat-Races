@@ -96,9 +96,10 @@ Partial Class SailBoatRaceResults
         Me.Label1.Location = New System.Drawing.Point(415, 59)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(63, 28)
+        Me.Label1.Size = New System.Drawing.Size(63, 17)
         Me.Label1.TabIndex = 26
         Me.Label1.Text = "Total"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label10
         '
@@ -166,7 +167,7 @@ Partial Class SailBoatRaceResults
         'Results3
         '
         Me.Results3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Results3.Location = New System.Drawing.Point(414, 187)
+        Me.Results3.Location = New System.Drawing.Point(414, 183)
         Me.Results3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Results3.Name = "Results3"
         Me.Results3.Size = New System.Drawing.Size(64, 28)
@@ -177,7 +178,7 @@ Partial Class SailBoatRaceResults
         'Results2
         '
         Me.Results2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Results2.Location = New System.Drawing.Point(414, 139)
+        Me.Results2.Location = New System.Drawing.Point(414, 135)
         Me.Results2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Results2.Name = "Results2"
         Me.Results2.Size = New System.Drawing.Size(64, 28)
@@ -188,7 +189,7 @@ Partial Class SailBoatRaceResults
         'Results1
         '
         Me.Results1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Results1.Location = New System.Drawing.Point(414, 89)
+        Me.Results1.Location = New System.Drawing.Point(414, 85)
         Me.Results1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Results1.Name = "Results1"
         Me.Results1.Size = New System.Drawing.Size(64, 28)

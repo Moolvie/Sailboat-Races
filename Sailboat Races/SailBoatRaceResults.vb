@@ -81,6 +81,7 @@
                 StatusStripErrorMessage.Text = String.Empty
                 ' and set the back color to white
                 placeRace1Boat2.BackColor = Color.White
+
                 Try
                     boat3Race1Finish = Convert.ToInt16(placeRace1Boat3.Text)
                     ' clear the status strip if input is correct
@@ -120,18 +121,21 @@
                                     StatusStripErrorMessage.Text = String.Empty
                                     ' and set the back color to white
                                     placeRace3Boat1.BackColor = Color.White
+
                                     Try
                                         boat2Race3Finish = Convert.ToInt16(placeRace3Boat2.Text)
                                         ' clear the status strip if imput is correct
                                         StatusStripErrorMessage.Text = String.Empty
                                         ' and set the back color to white
                                         placeRace3Boat2.BackColor = Color.White
+
                                         Try
                                             boat3Race3Finish = Convert.ToInt16(placeRace3Boat3.Text)
                                             ' clear the status strip if imput is correct
                                             StatusStripErrorMessage.Text = String.Empty
                                             ' and set the back color to white
                                             placeRace3Boat3.BackColor = Color.White
+
                                             ' End of race three results
                                             ' Beginning of race four results
                                             Try
@@ -140,18 +144,21 @@
                                                 StatusStripErrorMessage.Text = String.Empty
                                                 ' and set the back color to white
                                                 placeRace4Boat1.BackColor = Color.White
+
                                                 Try
                                                     boat2Race4Finish = Convert.ToInt16(placeRace4Boat2.Text)
                                                     ' clear the status strip if imput is correct
                                                     StatusStripErrorMessage.Text = String.Empty
                                                     ' and set the back color to white
                                                     placeRace4Boat2.BackColor = Color.White
+
                                                     Try
                                                         boat3Race4Finish = Convert.ToInt16(placeRace4Boat3.Text)
                                                         ' clear the status strip if imput is correct
                                                         StatusStripErrorMessage.Text = String.Empty
                                                         ' and set the back color to white
                                                         placeRace4Boat3.BackColor = Color.White
+                                                        placeRace4Boat3.ForeColor = Color.Black
                                                         ' calculate the totals for each boat
                                                         Results1.Text = Convert.ToString(boat1Race1Finish + boat1Race2Finish + boat1Race3Finish + boat1Race4Finish)
                                                         Results2.Text = Convert.ToString(boat2Race1Finish + boat2Race2Finish + boat2Race3Finish + boat2Race4Finish)
@@ -161,18 +168,21 @@
                                                         StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                                                         placeRace4Boat3.Focus()
                                                         placeRace4Boat3.BackColor = Color.Red
+
                                                     End Try
                                                 Catch ex As Exception
                                                     ' Display the error message, move focus to the bad input and change background color
                                                     StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                                                     placeRace4Boat2.Focus()
                                                     placeRace4Boat2.BackColor = Color.Red
+
                                                 End Try
                                             Catch ex As Exception
                                                 ' Display the error message, move focus to the bad input and change background color
                                                 StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                                                 placeRace4Boat1.Focus()
                                                 placeRace4Boat1.BackColor = Color.Red
+
                                             End Try
                                             ' beginning of race three error trapping
                                         Catch ex As Exception
@@ -180,18 +190,21 @@
                                             StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                                             placeRace3Boat3.Focus()
                                             placeRace3Boat3.BackColor = Color.Red
+
                                         End Try
                                     Catch ex As Exception
                                         ' Display the error message, move focus to the bad input and change background color
                                         StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                                         placeRace3Boat2.Focus()
                                         placeRace3Boat2.BackColor = Color.Red
+
                                     End Try
                                 Catch ex As Exception
                                     ' Display the error message, move focus to the bad input and change background color
                                     StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                                     placeRace3Boat1.Focus()
                                     placeRace3Boat1.BackColor = Color.Red
+
                                 End Try
                                 ' Begin Race two error trapping
                             Catch ex As Exception
@@ -199,18 +212,21 @@
                                 StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                                 placeRace2Boat3.Focus()
                                 placeRace2Boat3.BackColor = Color.Red
+
                             End Try
                         Catch ex As Exception
                             ' Display the error message, move focus to the bad input and change background color
                             StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                             placeRace2Boat2.Focus()
                             placeRace2Boat2.BackColor = Color.Red
+
                         End Try
                     Catch ex As Exception
                         ' Display the error message, move focus to the bad input and change background color
                         StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                         placeRace2Boat1.Focus()
                         placeRace2Boat1.BackColor = Color.Red
+
                     End Try
                     ' End race two error trapping
                     ' Begin race one error trapping
@@ -219,18 +235,21 @@
                     StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                     placeRace1Boat3.Focus()
                     placeRace1Boat3.BackColor = Color.Red
+
                 End Try
             Catch ex As Exception
                 ' Display the error message, move focus to the bad input and change background color
                 StatusStripErrorMessage.Text = "Please try again, and enter an integer."
                 placeRace1Boat2.Focus()
                 placeRace1Boat2.BackColor = Color.Red
+
             End Try
         Catch ex As Exception
             ' Display the error message, move focus to the bad input and change background color
             StatusStripErrorMessage.Text = "Please try again, and enter an integer."
             placeRace1Boat1.Focus()
             placeRace1Boat1.BackColor = Color.Red
+
         End Try
     End Sub
 End Class
