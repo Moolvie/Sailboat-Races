@@ -93,7 +93,7 @@ Partial Class Form1
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(415, 60)
+        Me.Label1.Location = New System.Drawing.Point(415, 59)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(63, 28)
@@ -102,7 +102,7 @@ Partial Class Form1
         '
         'Label10
         '
-        Me.Label10.Location = New System.Drawing.Point(328, 60)
+        Me.Label10.Location = New System.Drawing.Point(328, 59)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(70, 28)
@@ -111,7 +111,7 @@ Partial Class Form1
         '
         'Label9
         '
-        Me.Label9.Location = New System.Drawing.Point(251, 60)
+        Me.Label9.Location = New System.Drawing.Point(251, 59)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(59, 28)
@@ -120,7 +120,7 @@ Partial Class Form1
         '
         'Label8
         '
-        Me.Label8.Location = New System.Drawing.Point(178, 60)
+        Me.Label8.Location = New System.Drawing.Point(178, 59)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(63, 28)
@@ -129,7 +129,7 @@ Partial Class Form1
         '
         'Label7
         '
-        Me.Label7.Location = New System.Drawing.Point(107, 60)
+        Me.Label7.Location = New System.Drawing.Point(107, 59)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(77, 28)
@@ -138,7 +138,7 @@ Partial Class Form1
         '
         'Label6
         '
-        Me.Label6.Location = New System.Drawing.Point(20, 206)
+        Me.Label6.Location = New System.Drawing.Point(20, 190)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(74, 28)
@@ -147,7 +147,7 @@ Partial Class Form1
         '
         'Label5
         '
-        Me.Label5.Location = New System.Drawing.Point(20, 153)
+        Me.Label5.Location = New System.Drawing.Point(20, 140)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(74, 28)
@@ -156,7 +156,7 @@ Partial Class Form1
         '
         'Label4
         '
-        Me.Label4.Location = New System.Drawing.Point(20, 106)
+        Me.Label4.Location = New System.Drawing.Point(20, 90)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(74, 28)
@@ -166,7 +166,7 @@ Partial Class Form1
         'Results3
         '
         Me.Results3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Results3.Location = New System.Drawing.Point(414, 203)
+        Me.Results3.Location = New System.Drawing.Point(414, 187)
         Me.Results3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Results3.Name = "Results3"
         Me.Results3.Size = New System.Drawing.Size(64, 28)
@@ -177,7 +177,7 @@ Partial Class Form1
         'Results2
         '
         Me.Results2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Results2.Location = New System.Drawing.Point(414, 152)
+        Me.Results2.Location = New System.Drawing.Point(414, 139)
         Me.Results2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Results2.Name = "Results2"
         Me.Results2.Size = New System.Drawing.Size(64, 28)
@@ -188,7 +188,7 @@ Partial Class Form1
         'Results1
         '
         Me.Results1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Results1.Location = New System.Drawing.Point(414, 105)
+        Me.Results1.Location = New System.Drawing.Point(414, 89)
         Me.Results1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Results1.Name = "Results1"
         Me.Results1.Size = New System.Drawing.Size(64, 28)
@@ -199,7 +199,7 @@ Partial Class Form1
         'placeRace4Boat3
         '
         Me.placeRace4Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace4Boat3.Location = New System.Drawing.Point(332, 203)
+        Me.placeRace4Boat3.Location = New System.Drawing.Point(332, 187)
         Me.placeRace4Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace4Boat3.Name = "placeRace4Boat3"
         Me.placeRace4Boat3.Size = New System.Drawing.Size(51, 22)
@@ -208,7 +208,7 @@ Partial Class Form1
         'placeRace4Boat2
         '
         Me.placeRace4Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace4Boat2.Location = New System.Drawing.Point(332, 149)
+        Me.placeRace4Boat2.Location = New System.Drawing.Point(332, 136)
         Me.placeRace4Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace4Boat2.Name = "placeRace4Boat2"
         Me.placeRace4Boat2.Size = New System.Drawing.Size(51, 22)
@@ -217,7 +217,7 @@ Partial Class Form1
         'placeRace4Boat1
         '
         Me.placeRace4Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace4Boat1.Location = New System.Drawing.Point(332, 103)
+        Me.placeRace4Boat1.Location = New System.Drawing.Point(332, 87)
         Me.placeRace4Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace4Boat1.Name = "placeRace4Boat1"
         Me.placeRace4Boat1.Size = New System.Drawing.Size(51, 22)
@@ -226,7 +226,7 @@ Partial Class Form1
         'placeRace3Boat3
         '
         Me.placeRace3Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace3Boat3.Location = New System.Drawing.Point(255, 203)
+        Me.placeRace3Boat3.Location = New System.Drawing.Point(255, 187)
         Me.placeRace3Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace3Boat3.Name = "placeRace3Boat3"
         Me.placeRace3Boat3.Size = New System.Drawing.Size(51, 22)
@@ -235,7 +235,7 @@ Partial Class Form1
         'placeRace3Boat2
         '
         Me.placeRace3Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace3Boat2.Location = New System.Drawing.Point(255, 149)
+        Me.placeRace3Boat2.Location = New System.Drawing.Point(255, 136)
         Me.placeRace3Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace3Boat2.Name = "placeRace3Boat2"
         Me.placeRace3Boat2.Size = New System.Drawing.Size(51, 22)
@@ -244,7 +244,7 @@ Partial Class Form1
         'placeRace3Boat1
         '
         Me.placeRace3Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace3Boat1.Location = New System.Drawing.Point(255, 102)
+        Me.placeRace3Boat1.Location = New System.Drawing.Point(255, 86)
         Me.placeRace3Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace3Boat1.Name = "placeRace3Boat1"
         Me.placeRace3Boat1.Size = New System.Drawing.Size(51, 22)
@@ -253,7 +253,7 @@ Partial Class Form1
         'placeRace2Boat3
         '
         Me.placeRace2Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace2Boat3.Location = New System.Drawing.Point(181, 203)
+        Me.placeRace2Boat3.Location = New System.Drawing.Point(181, 187)
         Me.placeRace2Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace2Boat3.Name = "placeRace2Boat3"
         Me.placeRace2Boat3.Size = New System.Drawing.Size(51, 22)
@@ -262,7 +262,7 @@ Partial Class Form1
         'placeRace2Boat2
         '
         Me.placeRace2Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace2Boat2.Location = New System.Drawing.Point(181, 149)
+        Me.placeRace2Boat2.Location = New System.Drawing.Point(181, 136)
         Me.placeRace2Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace2Boat2.Name = "placeRace2Boat2"
         Me.placeRace2Boat2.Size = New System.Drawing.Size(51, 22)
@@ -271,7 +271,7 @@ Partial Class Form1
         'placeRace2Boat1
         '
         Me.placeRace2Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace2Boat1.Location = New System.Drawing.Point(181, 102)
+        Me.placeRace2Boat1.Location = New System.Drawing.Point(181, 86)
         Me.placeRace2Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace2Boat1.Name = "placeRace2Boat1"
         Me.placeRace2Boat1.Size = New System.Drawing.Size(51, 22)
@@ -280,7 +280,7 @@ Partial Class Form1
         'placeRace1Boat3
         '
         Me.placeRace1Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace1Boat3.Location = New System.Drawing.Point(111, 203)
+        Me.placeRace1Boat3.Location = New System.Drawing.Point(111, 187)
         Me.placeRace1Boat3.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace1Boat3.Name = "placeRace1Boat3"
         Me.placeRace1Boat3.Size = New System.Drawing.Size(51, 22)
@@ -289,7 +289,7 @@ Partial Class Form1
         'placeRace1Boat2
         '
         Me.placeRace1Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace1Boat2.Location = New System.Drawing.Point(111, 149)
+        Me.placeRace1Boat2.Location = New System.Drawing.Point(111, 136)
         Me.placeRace1Boat2.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace1Boat2.Name = "placeRace1Boat2"
         Me.placeRace1Boat2.Size = New System.Drawing.Size(51, 22)
@@ -298,7 +298,7 @@ Partial Class Form1
         'placeRace1Boat1
         '
         Me.placeRace1Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace1Boat1.Location = New System.Drawing.Point(111, 102)
+        Me.placeRace1Boat1.Location = New System.Drawing.Point(111, 86)
         Me.placeRace1Boat1.Margin = New System.Windows.Forms.Padding(4)
         Me.placeRace1Boat1.Name = "placeRace1Boat1"
         Me.placeRace1Boat1.Size = New System.Drawing.Size(51, 22)
@@ -306,7 +306,7 @@ Partial Class Form1
         '
         'CalculateButton
         '
-        Me.CalculateButton.Location = New System.Drawing.Point(70, 358)
+        Me.CalculateButton.Location = New System.Drawing.Point(70, 347)
         Me.CalculateButton.Margin = New System.Windows.Forms.Padding(4)
         Me.CalculateButton.Name = "CalculateButton"
         Me.CalculateButton.Size = New System.Drawing.Size(146, 40)
@@ -316,7 +316,7 @@ Partial Class Form1
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(251, 358)
+        Me.ClearButton.Location = New System.Drawing.Point(251, 348)
         Me.ClearButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(100, 40)
@@ -326,7 +326,7 @@ Partial Class Form1
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(392, 358)
+        Me.ExitButton.Location = New System.Drawing.Point(392, 349)
         Me.ExitButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(100, 40)
@@ -347,7 +347,7 @@ Partial Class Form1
         'StatusStripErrorMessage
         '
         Me.StatusStripErrorMessage.Name = "StatusStripErrorMessage"
-        Me.StatusStripErrorMessage.Size = New System.Drawing.Size(125, 17)
+        Me.StatusStripErrorMessage.Size = New System.Drawing.Size(126, 17)
         Me.StatusStripErrorMessage.Text = "ToolStripErrorMessage"
         '
         'Form1
