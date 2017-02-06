@@ -1,5 +1,5 @@
-﻿Public Class Form1
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Public Class SailBoatRaceResults
+    Private Sub SailBoatRaceResults_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' clear the results label when loading the form
         Results1.Text = String.Empty
         Results2.Text = String.Empty

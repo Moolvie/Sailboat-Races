@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class SailBoatRaceResults
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -316,7 +316,7 @@ Partial Class Form1
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(251, 348)
+        Me.ClearButton.Location = New System.Drawing.Point(254, 347)
         Me.ClearButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(100, 40)
@@ -326,7 +326,7 @@ Partial Class Form1
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(392, 349)
+        Me.ExitButton.Location = New System.Drawing.Point(392, 347)
         Me.ExitButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(100, 40)
@@ -347,10 +347,10 @@ Partial Class Form1
         'StatusStripErrorMessage
         '
         Me.StatusStripErrorMessage.Name = "StatusStripErrorMessage"
-        Me.StatusStripErrorMessage.Size = New System.Drawing.Size(126, 17)
+        Me.StatusStripErrorMessage.Size = New System.Drawing.Size(115, 17)
         Me.StatusStripErrorMessage.Text = "ToolStripErrorMessage"
         '
-        'Form1
+        'SailBoatRaceResults
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -364,7 +364,7 @@ Partial Class Form1
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "SailBoatRaceResults"
         Me.Text = "Sailboat Races"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
