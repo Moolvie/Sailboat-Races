@@ -34,25 +34,22 @@ Partial Class SailBoatRaceResults
         Me.Results3 = New System.Windows.Forms.Label()
         Me.Results2 = New System.Windows.Forms.Label()
         Me.Results1 = New System.Windows.Forms.Label()
-        Me.placeRace4Boat3 = New System.Windows.Forms.TextBox()
-        Me.placeRace4Boat2 = New System.Windows.Forms.TextBox()
-        Me.placeRace4Boat1 = New System.Windows.Forms.TextBox()
-        Me.placeRace3Boat3 = New System.Windows.Forms.TextBox()
-        Me.placeRace3Boat2 = New System.Windows.Forms.TextBox()
-        Me.placeRace3Boat1 = New System.Windows.Forms.TextBox()
-        Me.placeRace2Boat3 = New System.Windows.Forms.TextBox()
-        Me.placeRace2Boat2 = New System.Windows.Forms.TextBox()
-        Me.placeRace2Boat1 = New System.Windows.Forms.TextBox()
-        Me.placeRace1Boat3 = New System.Windows.Forms.TextBox()
-        Me.placeRace1Boat2 = New System.Windows.Forms.TextBox()
-        Me.placeRace1Boat1 = New System.Windows.Forms.TextBox()
+        Me.R4B3 = New System.Windows.Forms.TextBox()
+        Me.R4B2 = New System.Windows.Forms.TextBox()
+        Me.R4B1 = New System.Windows.Forms.TextBox()
+        Me.R3B3 = New System.Windows.Forms.TextBox()
+        Me.R3B2 = New System.Windows.Forms.TextBox()
+        Me.R3B1 = New System.Windows.Forms.TextBox()
+        Me.R2B3 = New System.Windows.Forms.TextBox()
+        Me.R2B2 = New System.Windows.Forms.TextBox()
+        Me.R2B1 = New System.Windows.Forms.TextBox()
+        Me.R1B3 = New System.Windows.Forms.TextBox()
+        Me.R1B2 = New System.Windows.Forms.TextBox()
+        Me.R1B1 = New System.Windows.Forms.TextBox()
         Me.CalculateButton = New System.Windows.Forms.Button()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.StatusStripErrorMessage = New System.Windows.Forms.ToolStripStatusLabel()
         Me.GroupBox1.SuspendLayout()
-        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -69,18 +66,18 @@ Partial Class SailBoatRaceResults
         Me.GroupBox1.Controls.Add(Me.Results3)
         Me.GroupBox1.Controls.Add(Me.Results2)
         Me.GroupBox1.Controls.Add(Me.Results1)
-        Me.GroupBox1.Controls.Add(Me.placeRace4Boat3)
-        Me.GroupBox1.Controls.Add(Me.placeRace4Boat2)
-        Me.GroupBox1.Controls.Add(Me.placeRace4Boat1)
-        Me.GroupBox1.Controls.Add(Me.placeRace3Boat3)
-        Me.GroupBox1.Controls.Add(Me.placeRace3Boat2)
-        Me.GroupBox1.Controls.Add(Me.placeRace3Boat1)
-        Me.GroupBox1.Controls.Add(Me.placeRace2Boat3)
-        Me.GroupBox1.Controls.Add(Me.placeRace2Boat2)
-        Me.GroupBox1.Controls.Add(Me.placeRace2Boat1)
-        Me.GroupBox1.Controls.Add(Me.placeRace1Boat3)
-        Me.GroupBox1.Controls.Add(Me.placeRace1Boat2)
-        Me.GroupBox1.Controls.Add(Me.placeRace1Boat1)
+        Me.GroupBox1.Controls.Add(Me.R4B3)
+        Me.GroupBox1.Controls.Add(Me.R4B2)
+        Me.GroupBox1.Controls.Add(Me.R4B1)
+        Me.GroupBox1.Controls.Add(Me.R3B3)
+        Me.GroupBox1.Controls.Add(Me.R3B2)
+        Me.GroupBox1.Controls.Add(Me.R3B1)
+        Me.GroupBox1.Controls.Add(Me.R2B3)
+        Me.GroupBox1.Controls.Add(Me.R2B2)
+        Me.GroupBox1.Controls.Add(Me.R2B1)
+        Me.GroupBox1.Controls.Add(Me.R1B3)
+        Me.GroupBox1.Controls.Add(Me.R1B2)
+        Me.GroupBox1.Controls.Add(Me.R1B1)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(32, 50)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
@@ -197,113 +194,113 @@ Partial Class SailBoatRaceResults
         Me.Results1.Text = "Results1"
         Me.Results1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'placeRace4Boat3
+        'R4B3
         '
-        Me.placeRace4Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace4Boat3.Location = New System.Drawing.Point(332, 187)
-        Me.placeRace4Boat3.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace4Boat3.Name = "placeRace4Boat3"
-        Me.placeRace4Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace4Boat3.TabIndex = 11
+        Me.R4B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R4B3.Location = New System.Drawing.Point(332, 187)
+        Me.R4B3.Margin = New System.Windows.Forms.Padding(4)
+        Me.R4B3.Name = "R4B3"
+        Me.R4B3.Size = New System.Drawing.Size(51, 22)
+        Me.R4B3.TabIndex = 11
         '
-        'placeRace4Boat2
+        'R4B2
         '
-        Me.placeRace4Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace4Boat2.Location = New System.Drawing.Point(332, 136)
-        Me.placeRace4Boat2.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace4Boat2.Name = "placeRace4Boat2"
-        Me.placeRace4Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace4Boat2.TabIndex = 10
+        Me.R4B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R4B2.Location = New System.Drawing.Point(332, 136)
+        Me.R4B2.Margin = New System.Windows.Forms.Padding(4)
+        Me.R4B2.Name = "R4B2"
+        Me.R4B2.Size = New System.Drawing.Size(51, 22)
+        Me.R4B2.TabIndex = 10
         '
-        'placeRace4Boat1
+        'R4B1
         '
-        Me.placeRace4Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace4Boat1.Location = New System.Drawing.Point(332, 87)
-        Me.placeRace4Boat1.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace4Boat1.Name = "placeRace4Boat1"
-        Me.placeRace4Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace4Boat1.TabIndex = 9
+        Me.R4B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R4B1.Location = New System.Drawing.Point(332, 87)
+        Me.R4B1.Margin = New System.Windows.Forms.Padding(4)
+        Me.R4B1.Name = "R4B1"
+        Me.R4B1.Size = New System.Drawing.Size(51, 22)
+        Me.R4B1.TabIndex = 9
         '
-        'placeRace3Boat3
+        'R3B3
         '
-        Me.placeRace3Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace3Boat3.Location = New System.Drawing.Point(255, 187)
-        Me.placeRace3Boat3.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace3Boat3.Name = "placeRace3Boat3"
-        Me.placeRace3Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace3Boat3.TabIndex = 8
+        Me.R3B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R3B3.Location = New System.Drawing.Point(255, 187)
+        Me.R3B3.Margin = New System.Windows.Forms.Padding(4)
+        Me.R3B3.Name = "R3B3"
+        Me.R3B3.Size = New System.Drawing.Size(51, 22)
+        Me.R3B3.TabIndex = 8
         '
-        'placeRace3Boat2
+        'R3B2
         '
-        Me.placeRace3Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace3Boat2.Location = New System.Drawing.Point(255, 136)
-        Me.placeRace3Boat2.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace3Boat2.Name = "placeRace3Boat2"
-        Me.placeRace3Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace3Boat2.TabIndex = 7
+        Me.R3B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R3B2.Location = New System.Drawing.Point(255, 136)
+        Me.R3B2.Margin = New System.Windows.Forms.Padding(4)
+        Me.R3B2.Name = "R3B2"
+        Me.R3B2.Size = New System.Drawing.Size(51, 22)
+        Me.R3B2.TabIndex = 7
         '
-        'placeRace3Boat1
+        'R3B1
         '
-        Me.placeRace3Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace3Boat1.Location = New System.Drawing.Point(255, 86)
-        Me.placeRace3Boat1.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace3Boat1.Name = "placeRace3Boat1"
-        Me.placeRace3Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace3Boat1.TabIndex = 6
+        Me.R3B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R3B1.Location = New System.Drawing.Point(255, 86)
+        Me.R3B1.Margin = New System.Windows.Forms.Padding(4)
+        Me.R3B1.Name = "R3B1"
+        Me.R3B1.Size = New System.Drawing.Size(51, 22)
+        Me.R3B1.TabIndex = 6
         '
-        'placeRace2Boat3
+        'R2B3
         '
-        Me.placeRace2Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace2Boat3.Location = New System.Drawing.Point(181, 187)
-        Me.placeRace2Boat3.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace2Boat3.Name = "placeRace2Boat3"
-        Me.placeRace2Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace2Boat3.TabIndex = 5
+        Me.R2B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R2B3.Location = New System.Drawing.Point(181, 187)
+        Me.R2B3.Margin = New System.Windows.Forms.Padding(4)
+        Me.R2B3.Name = "R2B3"
+        Me.R2B3.Size = New System.Drawing.Size(51, 22)
+        Me.R2B3.TabIndex = 5
         '
-        'placeRace2Boat2
+        'R2B2
         '
-        Me.placeRace2Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace2Boat2.Location = New System.Drawing.Point(181, 136)
-        Me.placeRace2Boat2.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace2Boat2.Name = "placeRace2Boat2"
-        Me.placeRace2Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace2Boat2.TabIndex = 4
+        Me.R2B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R2B2.Location = New System.Drawing.Point(181, 136)
+        Me.R2B2.Margin = New System.Windows.Forms.Padding(4)
+        Me.R2B2.Name = "R2B2"
+        Me.R2B2.Size = New System.Drawing.Size(51, 22)
+        Me.R2B2.TabIndex = 4
         '
-        'placeRace2Boat1
+        'R2B1
         '
-        Me.placeRace2Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace2Boat1.Location = New System.Drawing.Point(181, 86)
-        Me.placeRace2Boat1.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace2Boat1.Name = "placeRace2Boat1"
-        Me.placeRace2Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace2Boat1.TabIndex = 3
+        Me.R2B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R2B1.Location = New System.Drawing.Point(181, 86)
+        Me.R2B1.Margin = New System.Windows.Forms.Padding(4)
+        Me.R2B1.Name = "R2B1"
+        Me.R2B1.Size = New System.Drawing.Size(51, 22)
+        Me.R2B1.TabIndex = 3
         '
-        'placeRace1Boat3
+        'R1B3
         '
-        Me.placeRace1Boat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace1Boat3.Location = New System.Drawing.Point(111, 187)
-        Me.placeRace1Boat3.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace1Boat3.Name = "placeRace1Boat3"
-        Me.placeRace1Boat3.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace1Boat3.TabIndex = 2
+        Me.R1B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R1B3.Location = New System.Drawing.Point(111, 187)
+        Me.R1B3.Margin = New System.Windows.Forms.Padding(4)
+        Me.R1B3.Name = "R1B3"
+        Me.R1B3.Size = New System.Drawing.Size(51, 22)
+        Me.R1B3.TabIndex = 2
         '
-        'placeRace1Boat2
+        'R1B2
         '
-        Me.placeRace1Boat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace1Boat2.Location = New System.Drawing.Point(111, 136)
-        Me.placeRace1Boat2.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace1Boat2.Name = "placeRace1Boat2"
-        Me.placeRace1Boat2.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace1Boat2.TabIndex = 1
+        Me.R1B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R1B2.Location = New System.Drawing.Point(111, 136)
+        Me.R1B2.Margin = New System.Windows.Forms.Padding(4)
+        Me.R1B2.Name = "R1B2"
+        Me.R1B2.Size = New System.Drawing.Size(51, 22)
+        Me.R1B2.TabIndex = 1
         '
-        'placeRace1Boat1
+        'R1B1
         '
-        Me.placeRace1Boat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.placeRace1Boat1.Location = New System.Drawing.Point(111, 86)
-        Me.placeRace1Boat1.Margin = New System.Windows.Forms.Padding(4)
-        Me.placeRace1Boat1.Name = "placeRace1Boat1"
-        Me.placeRace1Boat1.Size = New System.Drawing.Size(51, 22)
-        Me.placeRace1Boat1.TabIndex = 0
+        Me.R1B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R1B1.Location = New System.Drawing.Point(111, 86)
+        Me.R1B1.Margin = New System.Windows.Forms.Padding(4)
+        Me.R1B1.Name = "R1B1"
+        Me.R1B1.Size = New System.Drawing.Size(51, 22)
+        Me.R1B1.TabIndex = 0
         '
         'CalculateButton
         '
@@ -335,28 +332,11 @@ Partial Class SailBoatRaceResults
         Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StatusStripErrorMessage})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 406)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
-        Me.StatusStrip1.Size = New System.Drawing.Size(603, 22)
-        Me.StatusStrip1.TabIndex = 5
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'StatusStripErrorMessage
-        '
-        Me.StatusStripErrorMessage.Name = "StatusStripErrorMessage"
-        Me.StatusStripErrorMessage.Size = New System.Drawing.Size(115, 17)
-        Me.StatusStripErrorMessage.Text = "ToolStripErrorMessage"
-        '
         'SailBoatRaceResults
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(603, 428)
-        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.CalculateButton)
@@ -369,29 +349,25 @@ Partial Class SailBoatRaceResults
         Me.Text = "Sailboat Races"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.StatusStrip1.ResumeLayout(False)
-        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents placeRace4Boat3 As TextBox
-    Friend WithEvents placeRace4Boat2 As TextBox
-    Friend WithEvents placeRace4Boat1 As TextBox
-    Friend WithEvents placeRace3Boat3 As TextBox
-    Friend WithEvents placeRace3Boat2 As TextBox
-    Friend WithEvents placeRace3Boat1 As TextBox
-    Friend WithEvents placeRace2Boat3 As TextBox
-    Friend WithEvents placeRace2Boat2 As TextBox
-    Friend WithEvents placeRace2Boat1 As TextBox
-    Friend WithEvents placeRace1Boat3 As TextBox
-    Friend WithEvents placeRace1Boat2 As TextBox
-    Friend WithEvents placeRace1Boat1 As TextBox
+    Friend WithEvents R4B3 As TextBox
+    Friend WithEvents R4B2 As TextBox
+    Friend WithEvents R4B1 As TextBox
+    Friend WithEvents R3B3 As TextBox
+    Friend WithEvents R3B2 As TextBox
+    Friend WithEvents R3B1 As TextBox
+    Friend WithEvents R2B3 As TextBox
+    Friend WithEvents R2B2 As TextBox
+    Friend WithEvents R2B1 As TextBox
+    Friend WithEvents R1B3 As TextBox
+    Friend WithEvents R1B2 As TextBox
+    Friend WithEvents R1B1 As TextBox
     Friend WithEvents CalculateButton As Button
     Friend WithEvents ClearButton As Button
     Friend WithEvents ExitButton As Button
-    Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents Results1 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
@@ -403,5 +379,4 @@ Partial Class SailBoatRaceResults
     Friend WithEvents Results3 As Label
     Friend WithEvents Results2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents StatusStripErrorMessage As ToolStripStatusLabel
 End Class
