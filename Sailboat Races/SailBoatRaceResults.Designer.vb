@@ -22,6 +22,7 @@ Partial Class SailBoatRaceResults
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -49,7 +50,9 @@ Partial Class SailBoatRaceResults
         Me.CalculateButton = New System.Windows.Forms.Button()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.GroupBox1.SuspendLayout()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -332,6 +335,10 @@ Partial Class SailBoatRaceResults
         Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'SailBoatRaceResults
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -349,6 +356,7 @@ Partial Class SailBoatRaceResults
         Me.Text = "Sailboat Races"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -379,4 +387,5 @@ Partial Class SailBoatRaceResults
     Friend WithEvents Results3 As Label
     Friend WithEvents Results2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class
