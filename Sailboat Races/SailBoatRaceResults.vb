@@ -116,7 +116,7 @@
                                                     Try
                                                         R4B3Finish = Convert.ToInt16(R4B3.Text)
 
-                                                        ' calculate the totals for each boat
+                                                        ' calculate and display the totals for each boat
                                                         Results1.Text = Convert.ToString(R1B1Finish + R2B1Finish + R3B1Finish + R4B1Finish)
                                                         Results2.Text = Convert.ToString(R1B2Finish + R2B2Finish + R3B2Finish + R4B2Finish)
                                                         Results3.Text = Convert.ToString(R1B3Finish + R2B3Finish + R3B3Finish + R4B3Finish)
