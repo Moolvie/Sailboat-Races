@@ -74,7 +74,7 @@
         ErrorProvider1.SetError(R3B1, String.Empty)
         ErrorProvider1.SetError(R3B2, String.Empty)
         ErrorProvider1.SetError(R3B3, String.Empty)
-        ' Clear erros fourth race
+        ' Clear errors fourth race
         ErrorProvider1.SetError(R4B1, String.Empty)
         ErrorProvider1.SetError(R4B2, String.Empty)
         ErrorProvider1.SetError(R4B3, String.Empty)
@@ -117,6 +117,7 @@
                                                         R4B3Finish = Convert.ToInt16(R4B3.Text)
 
                                                         ' calculate the totals for each boat
+                                                        ' and display on the form
                                                         Results1.Text = Convert.ToString(R1B1Finish + R2B1Finish + R3B1Finish + R4B1Finish)
                                                         Results2.Text = Convert.ToString(R1B2Finish + R2B2Finish + R3B2Finish + R4B2Finish)
                                                         Results3.Text = Convert.ToString(R1B3Finish + R2B3Finish + R3B3Finish + R4B3Finish)
