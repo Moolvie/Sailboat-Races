@@ -317,7 +317,7 @@ Partial Class SailBoatRaceResults
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(254, 359)
+        Me.ClearButton.Location = New System.Drawing.Point(254, 360)
         Me.ClearButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(100, 40)
@@ -327,7 +327,7 @@ Partial Class SailBoatRaceResults
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(392, 359)
+        Me.ExitButton.Location = New System.Drawing.Point(392, 360)
         Me.ExitButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(100, 40)
